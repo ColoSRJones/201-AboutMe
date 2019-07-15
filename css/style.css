@@ -1,0 +1,203 @@
+html {
+  background: url(img/background.jpg) no-repeat center center fixed;
+  background-size: cover;
+  height: 100%;
+  overflow: none;
+}
+#navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    font-family: 'Carter One', sans-serif;
+    margin: 25px;
+    background: lightgray;
+    border: solid black 1px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  h1 {
+    font-family: 'Lobster', cursive;
+  }
+  
+  h2 {
+    font-family: 'Lobster', sans-serif;
+    text-decoration: overline;
+	font-size: 47px;
+	color: #6699CC;
+  }
+  p {
+    font-family: 'Carter One', cursive;
+	font-size: 24px;
+  }
+  .goals li {
+    font-family: 'Rock Salt', cursive;
+    text-align: center;
+    text-decoration-style: solid;
+  }
+  .goals ul {
+    list-style: circle;
+    list-style-position: inside;
+  }
+  
+  #forest-two {
+    font-family: 'Lobster', cursive;
+    width: 20vw;
+  }
+  
+  #forest {
+    font-family: 'Lobster', cursive;
+    width: 60vw;
+  }
+  
+  #logo {
+    font-family: 'Lobster', cursive;
+    width: 80px;
+  }
+  
+  a {
+    font-family: 'Lobster', sans-serif;
+    padding: none;
+	font-size: 18px;
+  }
+  
+  a:link {
+    font-family: 'Carter One', sans-serif;
+    color: black;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    font-family: 'Carter One', cursive;
+    color: blue;
+  }
+  
+  a:visited {
+    font-family: 'Lobster', cursive;
+    text-decoration: none;
+    color: black;
+  }
+  
+  .style-one {
+    font-family: 'Lobster', cursive;
+    display: flex;
+    justify-content: left;
+    align-items: left;
+  }
+  
+  .boxes-one {
+    font-family: 'Lobster', cursive;
+    text-align: center;
+    padding: 3%;
+    background: lightgray;
+    margin: 10px;
+  }
+  
+  ul {
+    font-family: 'Carter One', cursive;
+    text-align: center;
+    list-style: none;
+	font-size: 18px;
+  }
+
+  ol {
+    font-family: 'Lobster', cursive;
+      text-align: center;
+      list-style: none;
+	  font-size: 18px;
+  }
+ 
+  .style-two {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .boxes-two {
+    text-align: center;
+    padding: 4px;
+    background: white;
+    border: solid grey 5px;
+    margin: 2px;
+  }
+  
+  .style-three {
+    border: solid black 5px;
+    font-family: 'Lobster', cursive;
+    display: flex;
+    justify-content: left;
+    background: lightgray;
+    width: 100%;
+  }
+  
+  #trees {
+    font-family: 'Lobster', cursive;
+    align-self: flex-start;
+    width: 500px;
+    padding: 5%;
+    margin: 1% 6%;
+  }
+  
+  .boxes-three {
+    color: white;
+    font-family: 'Lobster', cursive;
+    text-align: center;
+    padding: 5%;
+    background-color: darkgray;
+    margin: 5px 5px 5px 5px;
+  }
+  
+  .style-four {
+    font-family: 'Lobster', cursive;
+    display: flex;
+    justify-content: center;
+    
+  }
+  
+  .boxes-four {
+    font-family: 'Lobster', sans-serif;
+    text-align: center;
+    padding: 1%;
+    background: white;
+  }
+  
+  #forest-again {
+    font-family: 'Lobster', cursive;
+    width: 60vw;
+    border: solid #73ADC0 100px;
+  }
+  
+  #footer {
+    font-family: 'Lobster', sans-serif;
+    position: sticky;
+    margin: 25px;
+    background: lightgray;
+    border: solid grey 1px;
+    width: full-page;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  } 
+ 
+  @media screen and (max-width: 600px) {
+    .style-three {
+      display: flex;
+      justify-content: center;
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    .boxes-three {
+      text-align: center;
+      padding: 5%;
+      background: white;
+      border: solid grey 1px;
+      margin: 3px;
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    #trees {
+      display: none;
+    }
+  }
+  
